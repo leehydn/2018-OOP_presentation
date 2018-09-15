@@ -1,5 +1,5 @@
 # 2. File Analysis ####################################################
-gba_file = open("gettysburg.txt", "r")
+gba_file = open("./OOP-master/lincoln.txt", "r")
 
 #   1. Length of Gettysburg Address ###################################
 def make_word_list_1(a_file):
