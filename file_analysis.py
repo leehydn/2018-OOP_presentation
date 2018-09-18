@@ -1,5 +1,5 @@
 # 2. File Analysis ####################################################
-gba_file = open("./OOP-master/lincoln.txt", "r")
+gba_file = open("./lincoln.txt", "r")
 
 #   1. Length of Gettysburg Address ###################################
 def make_word_list_1(a_file):
@@ -11,7 +11,7 @@ def make_word_list_1(a_file):
     
     return word_list
 
-#speech_list = make_word_list_1(gba_file)
+speech_list = make_word_list_1(gba_file)
 #print(speech_list)
 #print("Length:", len(speech_list)) #Length: 271
 
@@ -27,7 +27,7 @@ def make_word_list_2(a_file):
 
     return word_list
 
-#speech_list = make_word_list_2(gba_file)
+speech_list = make_word_list_2(gba_file)
 #print(speech_list)
 #print("Length:", len(speech_list))
 
@@ -40,7 +40,7 @@ def make_unique(word_list):
 
     return unique_list
 
-#speech_list = make_word_list_2(gba_file)
+speech_list = make_word_list_2(gba_file)
 #print(speech_list)
 #print("Speech Length:", len(speech_list))
 #print("Unique Length:", len(make_unique(speech_list)))
@@ -61,8 +61,8 @@ def make_word_list_3(a_file):
                 word_list.append(word)
     return word_list
 
-#speech_list = make_word_list_3(gba_file)
+speech_list = make_word_list_3(gba_file)
 #print("Speech Length:", len(speech_list))
-#unique_list = make_unique(speech_list)
+unique_list = make_unique(speech_list)
 #print(unique_list)
 #print("Unique length:", len(make_unique(unique_list)))
